@@ -1,0 +1,10 @@
+; KaiAtl.def : Declares the module parameters.
+
+LIBRARY      "KaiAtl.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KaiAtl", "KaiAtl\KaiAtl.vcproj", "{6C101CAF-8013-499B-AEC2-080162AB5815}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KaiAtlPS", "KaiAtl\KaiAtlPS.vcproj", "{857EC2D0-975B-44B9-BC12-B80A518FE032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{B2906FFE-D4EC-4D26-B02D-C8C0D5AE6069}"
+	ProjectSection(SolutionItems) = preProject
+		Helpers\Error.h = Helpers\Error.h
+		Helpers\EString.h = Helpers\EString.h
+		Helpers\Exception.h = Helpers\Exception.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3D7904C-9D0D-48F1-9A8D-51E787B582B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringTest", "StringTest\StringTest.vcproj", "{1A5F3348-B752-4B5E-952B-74A98E7E8B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C101CAF-8013-499B-AEC2-080162AB5815}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C101CAF-8013-499B-AEC2-080162AB5815}.Debug|Win32.Build.0 = Debug|Win32
+		{6C101CAF-8013-499B-AEC2-080162AB5815}.Release|Win32.ActiveCfg = Release|Win32
+		{6C101CAF-8013-499B-AEC2-080162AB5815}.Release|Win32.Build.0 = Release|Win32
+		{857EC2D0-975B-44B9-BC12-B80A518FE032}.Debug|Win32.ActiveCfg = Debug|Win32
+		{857EC2D0-975B-44B9-BC12-B80A518FE032}.Debug|Win32.Build.0 = Debug|Win32
+		{857EC2D0-975B-44B9-BC12-B80A518FE032}.Release|Win32.ActiveCfg = Release|Win32
+		{857EC2D0-975B-44B9-BC12-B80A518FE032}.Release|Win32.Build.0 = Release|Win32
+		{1A5F3348-B752-4B5E-952B-74A98E7E8B56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A5F3348-B752-4B5E-952B-74A98E7E8B56}.Debug|Win32.Build.0 = Debug|Win32
+		{1A5F3348-B752-4B5E-952B-74A98E7E8B56}.Release|Win32.ActiveCfg = Release|Win32
+		{1A5F3348-B752-4B5E-952B-74A98E7E8B56}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

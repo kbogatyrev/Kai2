@@ -1,0 +1,18 @@
+// KaiAtl.idl : IDL source for KaiAtl
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (KaiAtl.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(A6A7F69C-59F5-4D1C-B904-1B195F287483),
+	version(1.0),
+	helpstring("KaiAtl 1.0 Type Library")
+]
+library KaiAtlLib
+{
+	importlib("stdole2.tlb");
+};
